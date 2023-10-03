@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for i in $(jot 30 -10)
+for i in $(jot 3000 -10)
 do
     echo -n "i=$i "
     ./retval $i
